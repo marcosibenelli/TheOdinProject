@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My test page</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+        <link href="styles/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Royal Pets</h1>
+        <a href="#pasos-realizar">Realiza tu cuadro</a><!--Agrego el href con # para realizar un anchor
+        de manera local, cosa que me envie a mas abajo de la pagina-->
+        <img src="/home/marcos/web-projects/images/logo.jpg" alt="My test image">
+        <p>Este es el logo de la empresa</p>
+        <p>En esta empresa realizamos cuadros de tus mascotas</p>
+        <ul>
+            <li>perros</li>
+            <li>gatos</li>
+            <li>loros</li>
+            <li>hamsters</li>
+        </ul>
+        <h2 id="pasos-realizar">Pasos para realizar tus cuadros</h2><!--A este header le agregue un ID, para
+        poder realizar un anchor local-->
+        <ol>
+            <li>Envianos la foto</li>
+            <li>Nosotros la editamos</li>
+            <li>Te enviamos el producto terminado</li>
+        </ol>
+        <p>Puedes seguirnos a <a href="https://www.instagram.com/royal_pets_argentina/" target="_blank">
+        nuestro Instagram</a> y de ahi realizar cualquier consulta que tengas</p>
+        <form action="/home/marcos/web-projects/images/"><!-- aca deberiamos agregar el URL donde se 
+        almacena la informacion enviada en el formulario-->
+        </form> 
+        <p id="sexo">Elegi el sexo de tu mascota</p>
+        <input id="Hembra" type="radio" name="macho-hembra">
+        <label for="macho-hembra">Hembra</label>
+        <label for="Macho">
+            <input id="Macho" type="radio" name="macho-hembra">Macho
+        </label><br>
+            <input placeholder="Subi la foto de tu mascota" required>
+            <button type="submit">Subir foto</button>
+
+         <script src="scripts/main.js"></script>
+         <footer>Todos los derechos reservados</footer>
+    </body>
+</html>
