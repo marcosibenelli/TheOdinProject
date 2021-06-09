@@ -10,7 +10,7 @@
         <h1>Royal Pets</h1>
         <a href="#pasos-realizar">Realiza tu cuadro</a><!--Agrego el href con # para realizar un anchor
         de manera local, cosa que me envie a mas abajo de la pagina-->
-        <img src="/home/marcos/web-projects/images/logo.jpg" alt="My test image">
+        <img src="/home/marcos/web-projects/TheOdinProject/images/logo.jpg" alt="My test image">
         <p>Este es el logo de la empresa</p>
         <p>En esta empresa realizamos cuadros de tus mascotas</p>
         <ul>
@@ -28,15 +28,18 @@
         </ol>
         <p>Puedes seguirnos a <a href="https://www.instagram.com/royal_pets_argentina/" target="_blank">
         nuestro Instagram</a> y de ahi realizar cualquier consulta que tengas</p>
-        <form action="/home/marcos/web-projects/images/"><!-- aca deberiamos agregar el URL donde se 
+        <form action="/home/marcos/web-projects/images/"><!--aca deberiamos agregar el URL donde se 
         almacena la informacion enviada en el formulario-->
         </form> 
         <p id="sexo">Elegi el sexo de tu mascota</p>
         <input id="Hembra" type="radio" name="macho-hembra">
-        <label for="macho-hembra">Hembra</label>
+        <label for="Hembra">Hembra</label>
         <label for="Macho">
             <input id="Macho" type="radio" name="macho-hembra">Macho
         </label><br>
+        <p>Que le agregamos al cuadro?</p>
+        <label for="Firma"><input id="Firma" type="checkbox" name="Extras">Firma</label>
+        <label for="Marco"><input id="Marco" type="checkbox" name="Extras">Marco</label><br>
             <input placeholder="Subi la foto de tu mascota" required>
             <button type="submit">Subir foto</button>
 

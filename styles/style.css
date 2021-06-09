@@ -6,7 +6,10 @@ h1 {
   font-size: 60px;
   text-align: center;
 }
-
+[type="checkbox"] { /*podemos seleccionar por type para editar*/
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
 p, li, h2 {
   font-size: 16px;
   line-height: 2;
