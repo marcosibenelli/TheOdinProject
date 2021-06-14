@@ -45,3 +45,9 @@ footer {
 label {
   font-size: 16px;
 }
+a {
+  color: black;
+}
+a:hover {
+  color: blue; /*se usa el hover para que cambie de color cuando poso la flecha por encima del link*/
+}
